@@ -96,7 +96,7 @@ class MainActivity : ComponentActivity() {
                         setEnabledUseCases(
                             CameraController.IMAGE_ANALYSIS
                                     or CameraController.IMAGE_CAPTURE
-                                    or CameraController.VIDEO_CAPTURE
+//                                    or CameraController.VIDEO_CAPTURE
                         )
                         setImageCaptureIoExecutor(
                             Executors.newSingleThreadExecutor()
